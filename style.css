@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+#container{
+    width: 600px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin:110px auto;
+    border-radius: 10px;
+}
+#container section{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+h2{
+   color:  hsl(158, 36%, 37%);
+   font-size: 14px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color:hsl(36, 2%, 42%);
+    font-family:'Lucida Sans';
+    line-height: 23px;
+}
+#brief *{
+    margin-left: 20px;
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+#price{
+    font-size: 20px;
+    font-weight: bold;
+    color:  hsl(158, 36%, 37%);
+}
+button{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: 1px  hsl(158, 36%, 37%);
+}
+button span{
+    padding-left: 10px;
+    color: white;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
